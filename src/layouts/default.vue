@@ -2,9 +2,13 @@
   <v-app>
     <default-app-bar />
 
-    <v-content>
+    <v-main>
       <nuxt />
-    </v-content>
+      <div class="footer greyscale_3--text text-center pa-4">
+        <div class="caption">The listings portal for Mixin Ecosystem.</div>
+        <div class="caption copyright">©2022, Pando.im</div>
+      </div>
+    </v-main>
 
     <modals />
   </v-app>

@@ -1,19 +1,13 @@
 <template>
-  <f-app-bar app custom-content>
-    <v-toolbar-title class="headline text-uppercase">
-      <span>Vuetify</span>
-      <span class="font-weight-light">MATERIAL DESIGN</span>
-    </v-toolbar-title>
-
+  <f-app-bar app custom-content flat color="white">
     <v-spacer />
-
-    <v-btn
-      text
-      href="https://github.com/vuetifyjs/vuetify/releases/latest"
-      target="_blank"
-    >
-      <span class="mr-2">Latest Release</span>
-    </v-btn>
+    <v-toolbar-title class="text-center">
+      <div class="body-1">
+        <span class="font-weight-bold">Mixin</span
+        ><span class="font-weight-light">.fan</span>
+      </div>
+    </v-toolbar-title>
+    <v-spacer />
   </f-app-bar>
 </template>
 
@@ -24,3 +18,9 @@ import { Component, Vue } from "vue-property-decorator";
 class DefaultAppBar extends Vue {}
 export default DefaultAppBar;
 </script>
+
+<style lang="scss" scoped>
+.desc {
+  margin-top: -4px;
+}
+</style>

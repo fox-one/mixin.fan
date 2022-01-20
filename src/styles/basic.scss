@@ -29,3 +29,8 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
+
+#app.theme--light.v-application {
+  background-color: #fff !important;
+  // background: linear-gradient(180deg, #fff 0%, #f2f2f2 100%) !important;
+}

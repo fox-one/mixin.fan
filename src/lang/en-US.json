@@ -1,6 +1,22 @@
 {
   "hello": "Hello",
 
+  "bot.visit": "Visit bot",
+  "bot.visit_website": "Visit Website",
+  "bot.profile": "View Profile",
+  "bot.add_dapp": "Add",
+  "bot.add_dapp.title": "Add your dApps",
+  "bot.add_dapp.text": "If your Mixin Messenger bots or dApplications are not listed here, feel free to add them",
+  "bot.detail.category": "Category",
+  "bot.detail.tags": "Tags",
+  "bot.detail.website": "Website",
+  "bot.detail.support_url": "Support URL",
+  "bot.detail.mtg": "MTG",
+  "bot.detail.mvm": "MVM",
+  "bot.detail.languages": "Languages",
+
+  "hint.run_bot_in_mixin": "Please search ID {bot} in Mixin",
+
   "errorcode.-1": "NETWORK ERROR",
   "errorcode.404": "CANNOT FIND RESOURCE",
   "errorcode.fallback": "NETWORK ERROR"

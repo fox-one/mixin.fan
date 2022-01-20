@@ -1,6 +1,22 @@
 {
   "hello": "你好",
 
+  "bot.visit": "访问",
+  "bot.visit_website": "访问网址",
+  "bot.profile": "查看信息",
+  "bot.add_dapp": "添加",
+  "bot.add_dapp.title": "添加你的应用",
+  "bot.add_dapp.text": "如果您的 Mixin Messenger 机器人或 dApplications 未在此处列出，请随时添加它们",
+  "bot.detail.category": "分类",
+  "bot.detail.tags": "标签",
+  "bot.detail.website": "网址",
+  "bot.detail.support_url": "支持 URL",
+  "bot.detail.mtg": "MTG",
+  "bot.detail.mvm": "MVM",
+  "bot.detail.languages": "语言",
+
+  "hint.run_bot_in_mixin": "请在 Mixin Messenger 中搜索 {bot}",
+
   "errorcode.-1": "网络错误",
   "errorcode.404": "资源不存在",
   "errorcode.fallback": "网络错误"

@@ -1,15 +1,38 @@
 <template>
-  <v-container> </v-container>
+  <v-container>
+    <toolbar
+      :lang.sync="selectedLang"
+      :filter-text.sync="filterText"
+      :view-mode.sync="viewMode"
+    />
+    <bot-area
+      :view-mode="viewMode"
+      :filter-text="filterText"
+      :lang="selectedLang"
+    />
+  </v-container>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { Component, Mixins } from "vue-property-decorator";
 import { AuthModuleKey, MutationTypes } from "@/store/auth/types";
+import BotArea from "@/components/BotArea.vue";
+import Toolbar from "@/components/Toolbar.vue";
+import mixins from "@/mixins";
 
-@Component
-class IndexPage extends Vue {
+@Component({
+  components: {
+    BotArea,
+    Toolbar,
+  },
+})
+class IndexPage extends Mixins(mixins.page) {
+  selectedLang = "";
+  filterText = "";
+  viewMode = "bot";
+
   get title() {
-    return "hello";
+    return "Mixin.fan";
   }
 
   mounted() {

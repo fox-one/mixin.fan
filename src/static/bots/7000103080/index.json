@@ -1,0 +1,22 @@
+{
+  "id": "7000103080",
+  "client_id": "4c6d5096-e3de-4499-b1b2-6b43aab7e216",
+  "url": "https://bunshow.jp",
+  "name": {
+    "ja": "文商"
+  },
+  "text": {
+    "ja": [
+      "マイクロペイメントを活用したコンテンツ公開プラットフォームです。今までになかったコミュニケーションを文商で。"
+    ]
+  },
+  "tags": {
+    "en": ["Publishing", "Writing", "Reading"]
+  },
+  "category": "publishing",
+  "language": "ja",
+  "languages": ["ja"],
+  "website": "https://bunshow.jp",
+  "support_url": "https://bunshow.jp",
+  "limitation": "Only available for Japanese users."
+}

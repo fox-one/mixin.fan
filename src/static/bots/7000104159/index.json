@@ -1,0 +1,30 @@
+{
+  "id": "7000104159",
+  "client_id": "5278fff7-a084-4019-b963-a7a88559d5c4",
+  "url": "https://rings.pando.im",
+  "name": {
+    "en": "Pando Rings"
+  },
+  "text": {
+    "en": ["An algorithmic, autonomous interest rate protocol."]
+  },
+  "category": "fi",
+  "tags": {
+    "en": ["Lending", "Pando"]
+  },
+  "language": "en",
+  "languages": ["en", "ja", "zh", "de", "es"],
+  "website": "https://pando.im/rings",
+  "support_url": "",
+  "mtg": {
+    "members": [
+      "75f18fe8-b056-46d6-9c48-0214425e58ce",
+      "e96c26ca-666a-417b-9731-112d48725cca",
+      "1265e53d-3642-484c-9f3d-b8616606fd6d",
+      "db33b0c9-2e64-4aed-98b4-4d0b1d6a2826",
+      "04601cb1-6691-4666-b4d8-720172c3a7d9",
+      "d2d4399d-669d-4448-89f6-d65805e62fb7"
+    ],
+    "threshold": 4
+  }
+}

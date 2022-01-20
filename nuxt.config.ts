@@ -17,9 +17,19 @@ const config: NuxtConfig = {
           "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
       },
       {
+        hid: "title",
+        name: "title",
+        content: "Mixin.fan",
+      },
+      {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || "",
+        content: "The listings portal for Mixin Ecosystem.",
+      },
+      {
+        hid: "color-scheme",
+        name: "color-scheme",
+        content: "light only",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

@@ -1,0 +1,24 @@
+{
+  "id": "7000103970",
+  "client_id": "8e9e520c-b002-4bfe-b989-3f18d8d6e273",
+  "url": "https://cowallet.fox.one",
+  "name": {
+    "en": "CoWallet",
+    "zh": "多签钱包",
+    "ja": "CoWallet"
+  },
+  "text": {
+    "en": [
+      "An Opensource Multisig Wallet: Manage cryptocurrencies with your friends."
+    ]
+  },
+  "category": "wallet",
+  "tags": {
+    "en": ["multisig"]
+  },
+  "language": "en",
+  "languages": ["en", "zh"],
+
+  "website": "https://github.com/fox-one/cowallet/",
+  "support_url": "https://github.com/fox-one/cowallet/issues"
+}

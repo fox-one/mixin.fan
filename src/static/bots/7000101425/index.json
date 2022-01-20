@@ -1,0 +1,20 @@
+{
+  "id": "7000101425",
+  "client_id": "f49c073a-f92c-4268-ab81-25805d8a108f",
+  "url": "https://fusion.fox.one",
+  "name": {
+    "en": "Elite Wallet",
+    "zh": "小钱包"
+  },
+  "text": {
+    "en": ["A full-featured, ease-of-use Mixin wallet, powered by Fox.ONE"]
+  },
+  "tags": {
+    "en": ["All-in-one"]
+  },
+  "category": "wallet",
+  "language": "en",
+  "languages": ["en", "ja", "zh"],
+  "website": "",
+  "support_url": ""
+}
