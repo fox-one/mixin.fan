@@ -70,10 +70,15 @@
 
       <v-sheet v-if="isMixinMessenger">
         <div v-if="bot" class="buttons pa-4">
-          <f-button type="primary" block @click="openHome(bot)" class="mb-4">{{
-            $t("bot.visit")
-          }}</f-button>
-          <f-button type="subtitle" block @click="openProfile(bot)">
+          <f-button
+            color="primary"
+            large
+            block
+            @click="openHome(bot)"
+            class="mb-4"
+            >{{ $t("bot.visit") }}</f-button
+          >
+          <f-button color="subtitle" large block @click="openProfile(bot)">
             {{ $t("bot.profile") }}
           </f-button>
         </div>
@@ -87,8 +92,7 @@
             color="primary"
             block
             @click="openUrl(bot)"
-            class="mb-4"
-            >{{ $t("bot.visit_website") }}</f-button
+          >{{ $t("bot.visit_website") }}</f-button
           >
           <div v-else class="body-2 text-center">
             {{ $t("hint.run_bot_in_mixin", { bot: bot.id }) }}

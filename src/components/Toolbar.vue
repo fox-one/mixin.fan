@@ -52,21 +52,27 @@
         </v-btn>
       </v-toolbar-items>
     </template>
-    <v-toolbar-items v-else>
-      <f-search-input
-        class="search-box"
-        dense
-        clearable
-        block
-        placeholder="Search"
-        :hide-details="true"
-        height="48"
-        v-model="bindFilterText"
-      />
-      <v-btn text @click="toggleSearchBox">
-        <v-icon small>{{ $icons.mdiMagnify }}</v-icon>
-      </v-btn>
-    </v-toolbar-items>
+    <template v-else>
+      <v-toolbar-items>
+        <f-search-input
+          class="search-box"
+          dense
+          clearable
+          block
+          placeholder="Search"
+          :hide-details="true"
+          height="48"
+          v-model="bindFilterText"
+        />
+      </v-toolbar-items>
+      <v-spacer />
+
+      <v-toolbar-items>
+        <v-btn text @click="toggleSearchBox">
+          <v-icon small color="blue">{{ $icons.mdiMagnify }}</v-icon>
+        </v-btn>
+      </v-toolbar-items>
+    </template>
   </v-toolbar>
 </template>
 

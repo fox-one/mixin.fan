@@ -177,7 +177,6 @@ export default BotsArea;
 }
 .submit-apps {
   padding: 20px;
-  max-width: 1280px;
   padding-top: 0;
   padding-bottom: 0;
   position: relative;
