@@ -55,7 +55,7 @@ The bot description file includes required fields and optional fields.
   // website and support_url
   "website": "Your bot's official website url",
   "support_url": "your bot's support url",
-  // mtg information. omit it empty if your bot is not a MTG application
+  // mtg information. omit it if your bot is not a MTG application
   "mtg": {
     "members": [
       "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx1",
@@ -66,7 +66,7 @@ The bot description file includes required fields and optional fields.
     ],
     "threshold": 3
   },
-  // mvm information. omit  it empty if your bot is not a MVM application
+  // mvm information. omit it if your bot is not a MVM application
   "mvm": {
     "contract_url": "https://..."
   },
@@ -80,6 +80,12 @@ The bot description file includes required fields and optional fields.
 - fork this repo.
 - add a new category at `/bots.ts`
 - create a PR to submit your changes
+
+## Todo
+
+- [ ] listing groups and communities
+- [ ] listing non-bot dapps
+- [ ] saving bots as favourted
 
 ## Build Setup
 
