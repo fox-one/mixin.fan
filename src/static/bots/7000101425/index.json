@@ -15,6 +15,9 @@
   "category": "wallet",
   "language": "en",
   "languages": ["en", "ja", "zh"],
+  "developer": {
+    "name": "Fox.ONE"
+  },
   "website": "",
   "support_url": ""
 }

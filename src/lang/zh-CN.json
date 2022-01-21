@@ -1,5 +1,6 @@
 {
   "hello": "你好",
+  "settings": "设置",
 
   "bot.visit": "访问",
   "bot.visit_website": "访问网址",
@@ -9,11 +10,23 @@
   "bot.add_dapp.text": "如果您的 Mixin Messenger 机器人或 dApplications 未在此处列出，请随时添加它们",
   "bot.detail.category": "分类",
   "bot.detail.tags": "标签",
+  "bot.detail.url": "URL",
   "bot.detail.website": "网址",
   "bot.detail.support_url": "支持 URL",
   "bot.detail.mtg": "MTG",
   "bot.detail.mvm": "MVM",
   "bot.detail.languages": "语言",
+  "bot.detail.developer": "开发者",
+
+  "lang.en": "English",
+  "lang.zh": "中文",
+  "lang.ja": "日本語",
+  "lang.de": "Deutsch",
+  "lang.es": "Español",
+  "lang.ko": "한국인",
+
+  "settings.tap_to_launch": "轻按即启动",
+  "settings.donate": "捐赠我",
 
   "hint.run_bot_in_mixin": "请在 Mixin Messenger 中搜索 {bot}",
 

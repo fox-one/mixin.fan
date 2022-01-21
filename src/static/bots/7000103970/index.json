@@ -14,11 +14,15 @@
   },
   "category": "wallet",
   "tags": {
-    "en": ["multisig"]
+    "en": ["Multisig"]
   },
   "language": "en",
   "languages": ["en", "zh"],
 
+  "developer": {
+    "name": "Lyric",
+    "url": "https://lyric.im"
+  },
   "website": "https://github.com/fox-one/cowallet/",
   "support_url": "https://github.com/fox-one/cowallet/issues"
 }

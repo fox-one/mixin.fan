@@ -18,6 +18,8 @@ export default function () {
   return new Vuex.Store({
     state: {},
     modules,
-    plugins: [createPersistedState({ key: "vuex", paths: ["auth"] })],
+    plugins: [
+      createPersistedState({ key: "vuex", paths: ["auth", "app.settings"] }),
+    ],
   });
 }

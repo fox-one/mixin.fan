@@ -16,6 +16,11 @@
   "category": "publishing",
   "language": "ja",
   "languages": ["ja"],
+
+  "developer": {
+    "name": "Lee An",
+    "url": "https://github.com/an-lee/"
+  },
   "website": "https://bunshow.jp",
   "support_url": "https://bunshow.jp",
   "limitation": "Only available for Japanese users."

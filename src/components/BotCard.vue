@@ -92,7 +92,7 @@
             color="primary"
             block
             @click="openUrl(bot)"
-          >{{ $t("bot.visit_website") }}</f-button
+            >{{ $t("bot.visit_website") }}</f-button
           >
           <div v-else class="body-2 text-center">
             {{ $t("hint.run_bot_in_mixin", { bot: bot.id }) }}
@@ -105,7 +105,7 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import { bT, $a, $span } from "@/utils/fmt";
+import { bT, $a, $span, $tag } from "@/utils/fmt";
 import { CATS } from "~/bots";
 
 @Component
@@ -160,25 +160,48 @@ class BotCard extends Vue {
       },
       {
         title: this.$t("bot.detail.tags"),
-        value: bT(this.bot, "tags").join(", "),
+        value: this.$createElement("span", {}, [
+          bT(this.bot, "tags").map((x) => {
+            return $tag(this, x);
+          }),
+        ]),
       },
       {
         title: this.$t("bot.detail.languages"),
-        value: this.bot.languages.join(", "),
+        value: this.bot.languages
+          .map((x) => {
+            return this.$t(`lang.${x}`);
+          })
+          .join(", "),
       },
     ];
 
-    if (this.bot.website) {
+    if (this.bot.website || this.bot.support_url) {
+      const value = this.$createElement("div", {}, [
+        this.bot.website
+          ? $a(this, this.$t("bot.detail.website"), this.bot.website)
+          : null,
+        this.bot.support_url ? ", " : "",
+        this.bot.support_url
+          ? $a(this, this.$t("bot.detail.support_url"), this.bot.support_url)
+          : null,
+      ]);
       ret.push({
-        title: this.$t("bot.detail.website"),
-        value: $a(this, this.bot.website, this.bot.website),
+        title: this.$t("bot.detail.url"),
+        value: value,
       });
     }
 
-    if (this.bot.support_url) {
+    if (this.bot.developer) {
+      let value = null;
+      if (this.bot.developer.url) {
+        value = $a(this, this.bot.developer.name, this.bot.developer.url);
+      } else {
+        value = $span(this, this.bot.developer.name);
+      }
       ret.push({
-        title: this.$t("bot.detail.support_url"),
-        value: this.bot.support_url,
+        title: this.$t("bot.detail.developer"),
+        value: value,
       });
     }
 
@@ -205,7 +228,15 @@ class BotCard extends Vue {
     return ret;
   }
 
-  popup() {
+  get tapToLaunch() {
+    return this.$store.getters["app/GET_SETTINGS"].tap_to_launch;
+  }
+
+  popup(bot) {
+    console.log(this.tapToLaunch);
+    if (this.tapToLaunch) {
+      return this.isMixinMessenger ? this.openHome(bot) : this.openUrl(bot);
+    }
     this.modal = true;
   }
 
@@ -226,9 +257,6 @@ export default BotCard;
 
 <style lang="scss" scoped>
 .bot {
-  // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  // border-radius: 7px;
-  // padding: 4px 8px;
   overflow: hidden;
   max-height: 80px;
   .icon-wrapper {
@@ -237,7 +265,6 @@ export default BotCard;
     height: 44px;
   }
   .content {
-    // width: 100%;
     flex: 1;
   }
   .detail {
@@ -246,15 +273,17 @@ export default BotCard;
       .f-info-grid-item__content {
         font-weight: normal !important;
       }
+      .tag {
+        background: rgba(0, 0, 0, 0.08);
+        border-radius: 6px;
+        padding: 1px 3px;
+      }
+      .inline-icon {
+        padding-top: 2px;
+        margin-left: 2px;
+        margin-bottom: -2px;
+      }
     }
   }
-  // .desc {
-  //   clear: both;
-  //   display: inline-block;
-  //   overflow: hidden;
-  //   white-space: nowrap;
-  //   width: 100%;
-  //   text-overflow: ellipsis;
-  // }
 }
 </style>

@@ -1,5 +1,6 @@
 {
   "hello": "Hello",
+  "settings": "Settings",
 
   "bot.visit": "Visit bot",
   "bot.visit_website": "Visit Website",
@@ -9,11 +10,23 @@
   "bot.add_dapp.text": "If your Mixin Messenger bots or dApplications are not listed here, feel free to add them",
   "bot.detail.category": "Category",
   "bot.detail.tags": "Tags",
+  "bot.detail.url": "URL",
   "bot.detail.website": "Website",
   "bot.detail.support_url": "Support URL",
   "bot.detail.mtg": "MTG",
   "bot.detail.mvm": "MVM",
   "bot.detail.languages": "Languages",
+  "bot.detail.developer": "Developer",
+
+  "lang.en": "English",
+  "lang.zh": "中文",
+  "lang.ja": "日本語",
+  "lang.de": "Deutsch",
+  "lang.es": "Español",
+  "lang.ko": "한국인",
+
+  "settings.tap_to_launch": "Tap to Launch",
+  "settings.donate": "Donate Me",
 
   "hint.run_bot_in_mixin": "Please search ID {bot} in Mixin",
 

@@ -5,9 +5,9 @@
         <v-btn text @click="chooseView('bot')" :class="isBotActived">
           <v-icon small>{{ $icons.mdiRobotAngry }}</v-icon>
         </v-btn>
-        <v-btn text @click="chooseView('group')" :class="isGroupActived">
+        <!-- <v-btn text @click="chooseView('group')" :class="isGroupActived">
           <v-icon small>{{ $icons.mdiAccountGroup }}</v-icon>
-        </v-btn>
+        </v-btn> -->
       </v-toolbar-items>
 
       <v-spacer />
@@ -100,24 +100,28 @@ class Toolbar extends Vue {
         value: "",
       },
       {
-        label: "English",
+        label: this.$t("lang.en"),
         value: "en",
       },
       {
-        label: "日本語",
+        label: this.$t("lang.ja"),
         value: "ja",
       },
       {
-        label: "Español",
+        label: this.$t("lang.es"),
         value: "es",
       },
       {
-        label: "German",
+        label: this.$t("lang.de"),
         value: "de",
       },
       {
-        label: "中文",
+        label: this.$t("lang.zh"),
         value: "zh",
+      },
+      {
+        label: this.$t("lang.ko"),
+        value: "ko",
       },
     ];
   }

@@ -32,7 +32,7 @@ The bot description file includes required fields and optional fields.
     "en": "Your bot's name",
     "ja": "Your bot's name in Japanese"
   },
-  // description
+  // description, up to 3 lines
   "text": {
     "en": ["The first line of description", "The 2nd line of description"]
   },
@@ -42,10 +42,16 @@ The bot description file includes required fields and optional fields.
   "tags": {
     "en": ["Mint", "Pando"]
   },
+  // default language
+  "language": "en",
   // supported language
   "languages": ["en", "ja", "zh", "de", "es"],
 
   // optional fields.
+  "developer": {
+    "name": "the developer's name",
+    "url": "the url of the developer"
+  },
   // website and support_url
   "website": "Your bot's official website url",
   "support_url": "your bot's support url",
@@ -68,6 +74,12 @@ The bot description file includes required fields and optional fields.
   "limitation": ""
 }
 ```
+
+## Submit New Category
+
+- fork this repo.
+- add a new category at `/bots.ts`
+- create a PR to submit your changes
 
 ## Build Setup
 

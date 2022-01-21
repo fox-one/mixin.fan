@@ -1,6 +1,6 @@
 <template>
   <f-app-bar app custom-content flat color="white">
-    <v-spacer />
+    <settings />
     <v-toolbar-title class="text-center">
       <div class="body-1">
         <span class="font-weight-bold">Mixin</span
@@ -13,9 +13,16 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-
-@Component
-class DefaultAppBar extends Vue {}
+import { FIconMenuBold } from "@foxone/icons";
+import Settings from "@/components/Settings.vue";
+@Component({
+  components: {
+    Settings,
+  },
+})
+class DefaultAppBar extends Vue {
+  // settingIcon = this.$createElement(FIconMenuBold, {});
+}
 export default DefaultAppBar;
 </script>
 

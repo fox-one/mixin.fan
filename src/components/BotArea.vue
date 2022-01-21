@@ -25,9 +25,7 @@
     </div>
 
     <div class="submit-apps text-center pa-0">
-      <div class="bg-image"></div>
-      <div class="submit-apps-content pa-8">
-        <div class="title mb-4">{{ $t("bot.add_dapp.title") }}</div>
+      <div class="submit-apps-content pa-4">
         <div class="body-2 greyscale_3--text mb-4">
           {{ $t("bot.add_dapp.text") }}
         </div>
@@ -134,7 +132,6 @@ class BotsArea extends Vue {
       }
       return 0;
     });
-    console.log(arr);
     return arr;
   }
 
@@ -172,30 +169,13 @@ export default BotsArea;
 .bot {
   display: flex;
   cursor: pointer;
-  .icon-wrapper {
-  }
 }
 .submit-apps {
-  padding: 20px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 10px 20px;
   position: relative;
-  .bg-image {
-    background: transparent url(@/assets/images/submit-apps-bg.png) no-repeat
-      50%;
-    background-size: auto;
-    background-size: cover;
-    height: 100%;
-    width: 100vw;
-    position: absolute;
-    display: block;
-    content: " ";
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 0;
-  }
   .submit-apps-content {
     transform: translateX(0);
+    border: 2px dashed #aaa;
   }
 }
 </style>

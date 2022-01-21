@@ -13,7 +13,12 @@
     "en": ["Lending", "Pando"]
   },
   "language": "en",
-  "languages": ["en", "ja", "zh", "de", "es"],
+  "languages": ["en", "ja", "zh", "de", "es", "ko"],
+
+  "developer": {
+    "name": "Pando",
+    "url": "https://pando.im"
+  },
   "website": "https://pando.im/rings",
   "support_url": "",
   "mtg": {
