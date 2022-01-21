@@ -1,0 +1,33 @@
+{
+  "id": "7000104386",
+  "client_id": "14c2a3a2-b021-408e-9d28-990531dbceb0",
+  "url": "https://pizza.b1.zone",
+  "name": {
+    "zh": "BigONE 赚币",
+    "en": "BigONE Earn"
+  },
+  "text": {
+    "zh": [
+      "BigONE Earn 是一款由 BigONE 赚币体系提供支持的机器人",
+      "用户可以通过机器人一键参与 BTC、ETH、USDT 等多币种的赚币产品，存取自由，方便快捷，让闲置资金“赚”起来！"
+    ],
+    "en": [
+      "BigONE Earn is a robot powered by the BigONE earning system.",
+      "Users can participate in multi-currency earning products such as BTC, ETH, USDT, etc. with one click of the robot, with free access, convenient and fast, and let idle funds `earn`! "
+    ]
+  },
+  "category": "financial",
+  "tags": {
+    "zh": ["赚币"],
+    "en": ["Earn"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "BigONE",
+    "url": "https://big.one"
+  },
+  "website": "https://big.one",
+  "support_url": ""
+}

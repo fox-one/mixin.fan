@@ -1,0 +1,28 @@
+{
+  "id": "7000103915",
+  "client_id": "1b9195c8-e03b-448c-a931-69526f879332",
+  "url": "https://option.dance/home",
+  "name": {
+    "zh": "Option Dance",
+    "en": "Option Dance"
+  },
+  "text": {
+    "zh": ["我们为散户投资者重塑期权交易，最大限度地提高您的资产效率。"],
+    "en": [
+      "We reinvented options trading for retail investors, maximize the efficiency of your assets."
+    ]
+  },
+  "category": "financial",
+  "tags": {
+    "zh": ["期权"],
+    "en": ["Option"]
+  },
+  "language": "zh",
+  "languages": ["zh"],
+
+  "developer": {
+    "name": "Option Dance"
+  },
+  "website": "https://option.dance",
+  "support_url": "https://optiondance.mixinbots.com/join"
+}
