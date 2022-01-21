@@ -1,0 +1,31 @@
+{
+  "id": "7000101549",
+  "client_id": "6d8fd25a-1eb1-4afb-b2a6-d34991959b76",
+  "url": "https://prsdigg.com",
+  "name": {
+    "en": "PRSDigg",
+    "zh": "顶瓜瓜"
+  },
+  "text": {
+    "zh": [
+      "独创股权式的早期读者奖励机制，重新发现读者的价值，打造作者与读者共赢的写作平台"
+    ],
+    "en": [
+      "build a win-win platform for both authors and readers by introducing an early-reader-rewards mechanism"
+    ]
+  },
+  "tags": {
+    "en": ["Publishing", "Writing", "Reading"],
+    "zh": ["出版", "写作", "阅读"]
+  },
+  "category": "publishing",
+  "language": "zh",
+  "languages": ["zh", "en"],
+  "developer": {
+    "name": "Lee An",
+    "url": "https://github.com/an-lee/"
+  },
+  "website": "https://prsdigg.com",
+  "support_url": "https://prsdigg.jp",
+  "limitation": ""
+}
