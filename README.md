@@ -12,7 +12,7 @@ The listings portal for Mixin Ecosystem.
 **Submit**
 
 - fork this repo.
-- create a folder named your bot's id `/static/bots/` directory
+- create a folder named your bot's id at `/static/bots/` directory
 - put you the icon and JSON file in the folder and name them as `icon.png` and `index.json`
 - create a PR to submit your changes
 
