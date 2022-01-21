@@ -40,10 +40,13 @@ export function getToken(store) {
 
 export function getLocale() {
   let locale = "en";
-  if (navigator.language.includes("zh")) {
-    locale = "zh";
-  } else if (navigator.language.includes("ja")) {
-    locale = "ja";
+  const supportedLocales = ["ja", "zh", "ko"];
+  for (let ix = 0; ix < supportedLocales.length; ix++) {
+    const l = supportedLocales[ix];
+    if (navigator.language.includes(l)) {
+      locale = l;
+      break;
+    }
   }
   return locale;
 }

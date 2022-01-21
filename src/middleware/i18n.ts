@@ -1,9 +1,4 @@
 export default function ({ app }) {
-  let locale = "en";
-  if (navigator.language.includes("ja")) {
-    locale = "ja";
-  } else if (navigator.language.includes("zh")) {
-    locale = "zh";
-  }
+  const locale = app.$util.helper.getLocale();
   app.i18n.setLocale(locale);
 }
