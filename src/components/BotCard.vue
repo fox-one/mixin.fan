@@ -9,7 +9,7 @@
   >
     <div
       class="icon-wrapper"
-      :class="$vuetify.breakpoint.mdAndUp ? 'mr-4' : 'mb-2'"
+      :class="$vuetify.breakpoint.mdAndUp ? 'mr-4' : 'mb-1'"
     >
       <v-avatar size="44">
         <v-img
@@ -24,7 +24,9 @@
     <div class="content">
       <div
         :class="
-          $vuetify.breakpoint.mdAndUp ? 'body-2 font-weight-bold' : 'caption'
+          $vuetify.breakpoint.mdAndUp
+            ? 'body-2 font-weight-bold mb-1'
+            : 'bot-caption-name caption text-center'
         "
       >
         {{ botName }}
@@ -263,7 +265,7 @@ export default BotCard;
 <style lang="scss" scoped>
 .bot {
   overflow: hidden;
-  max-height: 80px;
+  max-height: 82px;
   .icon-wrapper {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
     border-radius: 99em;
@@ -271,6 +273,12 @@ export default BotCard;
   }
   .content {
     flex: 1;
+    .bot-caption-name {
+      line-height: 1rem;
+    }
+    .desc {
+      line-height: 1.1rem;
+    }
   }
   .detail {
     width: 100%;

@@ -14,7 +14,7 @@
               md="4"
               lg="3"
               v-for="bot in group.items"
-              :class="!$vuetify.breakpoint.mdAndUp ? 'pa-2' : ''"
+              :class="!$vuetify.breakpoint.mdAndUp ? 'py-2 px-2' : ''"
               :key="bot.client_id"
             >
               <bot-card :bot="bot" />
