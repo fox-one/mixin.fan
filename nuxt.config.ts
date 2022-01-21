@@ -32,7 +32,10 @@ const config: NuxtConfig = {
         content: "light only",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
+      { rel: "apple-touch-icon", type: "image/png", href: "/favicon.png" },
+    ],
   },
   loading: { color: "#fff" },
   css: ["~/styles/index.scss"],
