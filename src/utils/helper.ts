@@ -39,11 +39,11 @@ export function getToken(store) {
 }
 
 export function getLocale() {
-  let locale = "ja";
+  let locale = "en";
   if (navigator.language.includes("zh")) {
     locale = "zh";
-  } else if (navigator.language.includes("en")) {
-    locale = "en";
+  } else if (navigator.language.includes("ja")) {
+    locale = "ja";
   }
   return locale;
 }
