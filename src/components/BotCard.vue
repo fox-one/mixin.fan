@@ -12,7 +12,12 @@
       :class="$vuetify.breakpoint.mdAndUp ? 'mr-4' : 'mb-2'"
     >
       <v-avatar size="44">
-        <img :src="`/bots/${bot.id}/icon.png`" />
+        <v-img
+          height="44"
+          width="44"
+          :src="`/bots/${bot.id}/icon.png`"
+          :alt="bot.name"
+        />
       </v-avatar>
     </div>
 

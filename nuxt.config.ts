@@ -88,6 +88,7 @@ const config: NuxtConfig = {
       name: "Mixin.fan",
       short_name: "Mixin.fan",
       lang: "en",
+      theme_color: "#ffffff",
     },
   },
   build: {
