@@ -4,6 +4,8 @@ The listings portal for Mixin Ecosystem.
 
 ## Submit New Applications
 
+> Please don't submit super group bot or community bot. It's not ready to accept them.
+
 **Prerequisites**
 
 - an icon with size of at 256x256 pixels in PNG format. Please compress your icon at [tinypng](https://tinypng.com/) to reduce the size.
@@ -27,7 +29,7 @@ The bot description file includes required fields and optional fields.
   "id": "Your bot ID. e.g. 70001010001",
   "client_id": "your bot client_id. e.g. xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
   "url": "your bot's home url. e.g. https://mixin.one",
-  // bot name
+  // bot name, support mulitple languages: en, es, ja, zh, ko, de
   "name": {
     "en": "Your bot's name",
     "ja": "Your bot's name in Japanese"

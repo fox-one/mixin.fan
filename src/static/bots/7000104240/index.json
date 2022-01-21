@@ -1,0 +1,25 @@
+{
+  "id": "7000104240",
+  "client_id": "f7db018b-564c-42ce-ab93-31dea3d4699d",
+  "url": "https://links.jpyc.jp",
+  "name": {
+    "ja": "JPYC公式ロボ",
+    "en": "JPYC Bot"
+  },
+  "text": {
+    "ja": ["JPYCを購入する、ギフト券との交換。"]
+  },
+  "category": "shopping",
+  "tags": {
+    "en": ["JPYC"]
+  },
+  "language": "ja",
+  "languages": ["en", "ja", "zh"],
+
+  "developer": {
+    "name": "JPYC",
+    "url": "https://jpyc.jp"
+  },
+  "website": "https://jpyc.jp",
+  "support_url": ""
+}
