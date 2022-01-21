@@ -1,9 +1,9 @@
 {
-  "name": "nuxt-ts-template",
+  "name": "mixin-fan",
   "version": "1.0.0",
-  "description": "nuxt template starter",
-  "author": "divisey",
-  "license": "MIT",
+  "description": "The listings portal for Mixin Ecosystem",
+  "author": "lyric",
+  "license": "AGPL3",
   "private": true,
   "config": {
     "nuxt": {
@@ -48,6 +48,7 @@
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-config-typescript": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/vuetify": "^1.11.3",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",

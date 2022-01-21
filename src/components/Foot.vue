@@ -5,13 +5,12 @@
       <nuxt-link to="settings">Settings</nuxt-link>
     </div> -->
     <div class="caption">The listings portal for Mixin Ecosystem.</div>
-    <div class="caption copyright">©2022, Pando.im</div>
+    <div class="caption copyright">©2022, Pando.im.</div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-
 @Component
 class Foot extends Vue {}
 export default Foot;

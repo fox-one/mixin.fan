@@ -41,6 +41,7 @@ const config: NuxtConfig = {
   css: ["~/styles/index.scss"],
   plugins: ["~/plugins/property.ts", "~/plugins/libs.ts"],
   buildModules: [
+    "@nuxtjs/pwa",
     "@nuxtjs/eslint-module",
     [
       "@nuxt/typescript-build",
@@ -81,6 +82,13 @@ const config: NuxtConfig = {
     defaultAssets: false,
     treeShake: true,
     optionsPath: "./vuetify.options.ts",
+  },
+  pwa: {
+    manifest: {
+      name: "Mixin.fan",
+      short_name: "Mixin.fan",
+      lang: "en",
+    },
   },
   build: {
     transpile: ["vuetify", "@foxone/uikit"],
