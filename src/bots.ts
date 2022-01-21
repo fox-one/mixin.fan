@@ -21,10 +21,52 @@ export const CATS = [
     },
   },
   {
-    id: "fi",
+    id: "financial",
     name: {
-      en: "DeFi",
-      zh: "去中心化金融",
+      en: "Financial",
+      zh: "金融",
+    },
+  },
+  {
+    id: "social",
+    name: {
+      en: "Social",
+      zh: "社交",
+    },
+  },
+  {
+    id: "game",
+    name: {
+      en: "Game",
+      zh: "游戏",
+    },
+  },
+  {
+    id: "entertainment",
+    name: {
+      en: "Entertainment",
+      zh: "娱乐",
+    },
+  },
+  {
+    id: "shopping",
+    name: {
+      en: "Shopping",
+      zh: "电商",
+    },
+  },
+  {
+    id: "news",
+    name: {
+      en: "News",
+      zh: "新闻资讯",
+    },
+  },
+  {
+    id: "util",
+    name: {
+      en: "Utilities",
+      zh: "工具",
     },
   },
 ];
