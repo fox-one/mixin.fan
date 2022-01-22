@@ -1,0 +1,25 @@
+{
+  "id": "7000103262",
+  "client_id": "5551a7a2-93b1-43be-afcd-8a18fee25f0d",
+  "url": "ahr999mixin.tk",
+  "name": {
+    "en": "Ahr999 index",
+    "zh": "Ahr999指数"
+  },
+  "text": {
+    "en": ["realtime ahr999 index"],
+    "zh": ["订阅与实时获取Ahr999指数"]
+  },
+  "category": "information",
+  "tags": {
+    "zh": ["Ahr999", "information"]
+  },
+  "language": "zh",
+  "languages": ["zh"],
+
+  "developer": {
+    "name": "王卓",
+    "url": "mixin@28865"
+  },
+  "website": "http://ahr999mixin.tk"
+}
