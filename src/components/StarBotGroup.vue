@@ -14,7 +14,7 @@
             :class="isEditMode ? 'shaking' : ''"
             @click="op(bot, ix)"
           >
-            <v-avatar>
+            <v-avatar class="icon">
               <v-img :src="`/bots/${bot.id}/icon.png`" />
             </v-avatar>
           </div>
@@ -222,6 +222,15 @@ export default StarBotGroup;
     justify-content: center;
     min-height: 64px;
     cursor: pointer;
+    .icon {
+      transition: all 0.3s ease;
+    }
+    &.shaking {
+      animation: shaking 0.3s infinite;
+      .icon {
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+      }
+    }
   }
 }
 .add-bot-list {
@@ -229,22 +238,18 @@ export default StarBotGroup;
   height: 70vh;
 }
 
-.shaking {
-  animation: shaking 0.3s infinite;
-}
-
 @keyframes shaking {
   0% {
-    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   25% {
-    -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
   }
   75% {
-    -moz-transform: rotate(3deg) scale(1.01);
+    transform: rotate(3deg) scale(1.01);
   }
   99.99% {
-    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 </style>
