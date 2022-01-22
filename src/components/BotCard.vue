@@ -240,7 +240,6 @@ class BotCard extends Vue {
   }
 
   popup(bot) {
-    console.log(this.tapToLaunch);
     if (this.tapToLaunch) {
       return this.isMixinMessenger ? this.openHome(bot) : this.openUrl(bot);
     }

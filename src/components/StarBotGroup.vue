@@ -9,7 +9,7 @@
         :key="ix"
       >
         <template v-if="bot">
-          <div class="icon-wrapper">
+          <div class="icon-wrapper" @click="invoke(bot)">
             <v-avatar>
               <v-img :src="`/bots/${bot.id}/icon.png`" />
             </v-avatar>
@@ -126,6 +126,18 @@ class StarBotGroup extends Vue {
       item_idx: this.curItemIdx,
       item: bot.id,
     });
+  }
+
+  invoke(bot) {
+    return this.isMixinMessenger ? this.openHome(bot) : this.openUrl(bot);
+  }
+
+  openUrl(bot) {
+    window.open(bot.url);
+  }
+
+  openHome(bot) {
+    window.open(`https://mixin.one/apps/${bot.client_id}?action=open`);
   }
 }
 export default StarBotGroup;
