@@ -6,6 +6,7 @@ import Vuex from "vuex";
 import createPersistedState from "vuex-persistedstate";
 import app from "./app";
 import auth from "./auth";
+import cache from "./cache";
 
 export default function () {
   Vue.use(Vuex);
@@ -13,13 +14,17 @@ export default function () {
   const modules: ModuleTree<RootState> = {
     app,
     auth,
+    cache,
   };
 
   return new Vuex.Store({
     state: {},
     modules,
     plugins: [
-      createPersistedState({ key: "vuex", paths: ["auth", "app.settings"] }),
+      createPersistedState({
+        key: "vuex",
+        paths: ["auth", "app.settings", "cache"],
+      }),
     ],
   });
 }

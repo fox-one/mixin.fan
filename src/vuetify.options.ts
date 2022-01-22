@@ -5,7 +5,7 @@ import ja from "vuetify/es5/locale/ja";
 import UIKit from "@foxone/uikit";
 import { mergeDeep } from "vuetify/lib/util/helpers";
 
-import { FIconMenuBold } from "@foxone/icons";
+import { FIconMenuBold, FIconStar4PFill } from "@foxone/icons";
 
 export default function ({ store }) {
   const isDark = store.state.app?.dark || false;
@@ -15,6 +15,7 @@ export default function ({ store }) {
       iconfont: "mdiSvg" as const,
       values: {
         FIconMenuBold: { component: FIconMenuBold },
+        FIconStar4PFill: { component: FIconStar4PFill },
       },
     },
     theme: {

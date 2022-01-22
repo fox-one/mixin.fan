@@ -2,12 +2,12 @@
   <v-toolbar class="bar" dense rounded outlined flat>
     <template v-if="!fullSearchBox">
       <v-toolbar-items>
+        <v-btn text @click="chooseView('star')" :class="isStarActived">
+          <v-icon size="16">$FIconStar4PFill</v-icon>
+        </v-btn>
         <v-btn text @click="chooseView('bot')" :class="isBotActived">
           <v-icon small>{{ $icons.mdiRobotAngry }}</v-icon>
         </v-btn>
-        <!-- <v-btn text @click="chooseView('group')" :class="isGroupActived">
-          <v-icon small>{{ $icons.mdiAccountGroup }}</v-icon>
-        </v-btn> -->
       </v-toolbar-items>
 
       <v-spacer />
@@ -130,8 +130,8 @@ class Toolbar extends Vue {
     return this.mode === "bot" ? "primary--text" : "greyscale_4--text";
   }
 
-  get isGroupActived() {
-    return this.mode === "group" ? "primary--text" : "greyscale_4--text";
+  get isStarActived() {
+    return this.mode === "star" ? "primary--text" : "greyscale_4--text";
   }
 
   mounted() {

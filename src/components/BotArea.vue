@@ -142,23 +142,6 @@ class BotsArea extends Vue {
   getGroupTitle(obj) {
     return bT(obj, "name");
   }
-
-  popup(bot) {
-    this.curBot = bot;
-    this.modal = true;
-  }
-
-  openUrl(bot) {
-    window.open(bot.url);
-  }
-
-  openHome(bot) {
-    window.open(`https://mixin.one/apps/${bot.client_id}?action=open`);
-  }
-
-  openProfile(bot) {
-    window.open(`https://mixin.one/apps/${bot.client_id}`);
-  }
 }
 export default BotsArea;
 </script>

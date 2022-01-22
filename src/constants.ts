@@ -11,3 +11,5 @@ export const CONFIG = {
 
   MIXIN_API_BASE: "https://api.mixin.one",
 };
+
+export const MAX_STAR_GROUP_COUNT = 32;

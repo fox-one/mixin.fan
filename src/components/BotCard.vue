@@ -16,7 +16,7 @@
           height="44"
           width="44"
           :src="`/bots/${bot.id}/icon.png`"
-          :alt="bot.name"
+          :alt="botName"
         />
       </v-avatar>
     </div>
