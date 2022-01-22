@@ -9,7 +9,11 @@
         :key="ix"
       >
         <template v-if="bot">
-          <div class="icon-wrapper" @click="op(bot, ix)">
+          <div
+            class="icon-wrapper"
+            :class="isEditMode ? 'shaking' : ''"
+            @click="op(bot, ix)"
+          >
             <v-avatar>
               <v-img :src="`/bots/${bot.id}/icon.png`" />
             </v-avatar>
@@ -223,5 +227,24 @@ export default StarBotGroup;
 .add-bot-list {
   overflow: auto;
   height: 70vh;
+}
+
+.shaking {
+  animation: shaking 0.3s infinite;
+}
+
+@keyframes shaking {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  25% {
+    -moz-transform: rotate(-3deg);
+  }
+  75% {
+    -moz-transform: rotate(3deg) scale(1.01);
+  }
+  99.99% {
+    -moz-transform: rotate(0deg);
+  }
 }
 </style>
