@@ -19,7 +19,6 @@
 
 <script lang="ts">
 import { Component, Mixins } from "vue-property-decorator";
-import { AuthModuleKey, MutationTypes } from "@/store/auth/types";
 import BotArea from "@/components/BotArea.vue";
 import StarBotArea from "@/components/StarBotArea.vue";
 import Toolbar from "@/components/Toolbar.vue";

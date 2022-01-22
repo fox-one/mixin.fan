@@ -21,7 +21,7 @@ import { Component, Vue, Prop } from "vue-property-decorator";
 import StarBotGroup from "@/components/StarBotGroup.vue";
 import _ from "lodash";
 import { bT } from "@/utils/fmt";
-import { CATS, BOTS } from "~/bots";
+import { BOTS } from "~/bots";
 
 @Component({
   components: {

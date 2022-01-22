@@ -17,6 +17,8 @@
   "bot.detail.mvm": "MVM",
   "bot.detail.languages": "Languages",
   "bot.detail.developer": "Developer",
+  "bot.view_info": "View Information",
+  "bot.remove": "Remove",
 
   "lang.en": "English",
   "lang.zh": "中文",

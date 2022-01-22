@@ -23,7 +23,7 @@ export default function () {
     plugins: [
       createPersistedState({
         key: "vuex",
-        paths: ["auth", "app.settings", "cache"],
+        paths: ["auth", "app.settings", "app.bottomNav", "cache"],
       }),
     ],
   });
