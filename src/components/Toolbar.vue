@@ -2,17 +2,25 @@
   <v-toolbar class="bar" dense rounded outlined flat>
     <template v-if="!fullSearchBox">
       <v-toolbar-items>
-        <v-btn text @click="chooseView('star')" :class="isStarActived">
+        <v-btn
+          text
+          @click="chooseView('star')"
+          :class="isStarActived ? 'primary--text' : 'greyscale_4--text'"
+        >
           <v-icon size="16">$FIconStar4PFill</v-icon>
         </v-btn>
-        <v-btn text @click="chooseView('bot')" :class="isBotActived">
+        <v-btn
+          text
+          @click="chooseView('bot')"
+          :class="isBotActived ? 'primary--text' : 'greyscale_4--text'"
+        >
           <v-icon small>{{ $icons.mdiRobotAngry }}</v-icon>
         </v-btn>
       </v-toolbar-items>
 
       <v-spacer />
 
-      <v-toolbar-items>
+      <v-toolbar-items v-if="isBotActived">
         <v-menu offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" v-on="on" text :ripple="false">
@@ -51,6 +59,19 @@
           <v-icon small>{{ $icons.mdiMagnify }}</v-icon>
         </v-btn>
       </v-toolbar-items>
+
+      <v-toolbar-items v-if="isStarActived">
+        <v-btn
+          v-if="isStarActived"
+          text
+          :ripple="false"
+          @click="toggleEditMode"
+        >
+          <v-icon small :color="isEditMode ? 'blue' : 'primary'"
+            >$FIconEdit4P</v-icon
+          >
+        </v-btn>
+      </v-toolbar-items>
     </template>
     <template v-else>
       <v-toolbar-items>
@@ -78,12 +99,15 @@
 
 <script lang="ts">
 import { Component, Vue, Watch, PropSync } from "vue-property-decorator";
+import { State } from "vuex-class";
 
 @Component
 class Toolbar extends Vue {
   @PropSync("view-mode", {}) bindViewMode;
   @PropSync("lang", {}) bindLang;
   @PropSync("filter-text", {}) bindFilterText;
+
+  @State((state) => state.app.bottomNav.value) pageIndicator;
 
   selectedLang = null;
 
@@ -127,15 +151,20 @@ class Toolbar extends Vue {
   }
 
   get isBotActived() {
-    return this.mode === "bot" ? "primary--text" : "greyscale_4--text";
+    return this.mode === "bot";
   }
 
   get isStarActived() {
-    return this.mode === "star" ? "primary--text" : "greyscale_4--text";
+    return this.mode === "star";
+  }
+
+  get isEditMode() {
+    return this.$store.getters["app/GET_EDIT_MODE"];
   }
 
   mounted() {
     this.fullSearchBox = false;
+    this.chooseView(this.pageIndicator || "bot");
   }
 
   toggleSearchBox() {
@@ -147,11 +176,16 @@ class Toolbar extends Vue {
   chooseView(name) {
     this.bindViewMode = name;
     this.mode = name;
+    this.$store.commit("app/SET_BOTTOM_NAV", name);
   }
 
   chooseLang(item) {
     this.bindLang = item.value;
     this.selectedLang = item;
+  }
+
+  toggleEditMode() {
+    this.$store.commit("app/TOGGLE_EDIT_MODE");
   }
 }
 export default Toolbar;

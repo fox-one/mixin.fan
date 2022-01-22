@@ -9,23 +9,63 @@
         :key="ix"
       >
         <template v-if="bot">
-          <div class="icon-wrapper" @click="invoke(bot)">
-            <v-avatar>
+          <div
+            class="icon-wrapper"
+            :class="isEditMode ? 'shaking' : ''"
+            @click="op(bot, ix)"
+          >
+            <v-avatar class="icon">
               <v-img :src="`/bots/${bot.id}/icon.png`" />
             </v-avatar>
           </div>
         </template>
         <div v-else class="icon-wrapper" @click="openAddPopup(ix)">
-          <v-icon color="greyscale_4">{{ $icons.mdiPlus }}</v-icon>
+          <v-icon :color="isEditMode ? 'greyscale_4' : 'greyscale_5'">{{
+            $icons.mdiPlus
+          }}</v-icon>
         </div>
       </v-col>
     </v-row>
+
+    <template v-if="curBot">
+      <bot-info-popup v-model="infoModal" :bot="curBot" />
+    </template>
+
     <f-bottom-sheet
-      v-model="modal"
+      v-model="editModal"
+      :adaptive="true"
+      :title="'Edit'"
+      wapper-in-desktop="dialog"
+      content-class=""
+    >
+      <f-list>
+        <f-list-item @click="viewBot()">
+          <template #head>
+            <v-icon>$FIconDocumentHelp</v-icon>
+          </template>
+          <template #body>
+            <div class="body">{{ $t("bot.view_info") }}</div>
+          </template>
+          <template #tail>&nbsp;</template>
+        </f-list-item>
+        <f-list-item @click="removeBot()">
+          <template #head>
+            <v-icon color="error">$FIconCloseBold</v-icon>
+          </template>
+          <template #body>
+            <div class="body error--text">{{ $t("bot.remove") }}</div>
+          </template>
+          <template #tail>&nbsp;</template>
+        </f-list-item>
+      </f-list>
+    </f-bottom-sheet>
+
+    <f-bottom-sheet
+      v-model="addModal"
       :adaptive="true"
       :title="'Add'"
       wapper-in-desktop="dialog"
-      content-class="bot"
+      content-class=""
     >
       <f-bottom-sheet-subtitle class="pt-0">
         <f-search-input v-model="addFilterText" :hide-details="true" />
@@ -57,14 +97,14 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from "vue-property-decorator";
-import BotCard from "@/components/BotCard.vue";
 import _ from "lodash";
 import { bT } from "@/utils/fmt";
-import { CATS, BOTS } from "~/bots";
+import { BOTS } from "~/bots";
+import BotInfoPopup from "./BotInfoPopup.vue";
 
 @Component({
   components: {
-    BotCard,
+    BotInfoPopup,
   },
 })
 class StarBotGroup extends Vue {
@@ -74,11 +114,17 @@ class StarBotGroup extends Vue {
 
   bT = bT;
 
-  modal = false;
+  addModal = false;
+
+  editModal = false;
+
+  infoModal = false;
 
   addFilterText = "";
 
   curItemIdx = 0;
+
+  curBot = null;
 
   get formalizedFitlerText() {
     return this.filterText ? this.filterText.toLowerCase() : "";
@@ -109,18 +155,22 @@ class StarBotGroup extends Vue {
     return this.$utils.helper.isMixinMessenger();
   }
 
-  openAddPopup(ix) {
-    this.curItemIdx = ix;
-    this.modal = true;
+  get isEditMode() {
+    return this.$store.getters["app/GET_EDIT_MODE"];
   }
 
-  getGroupTitle(obj) {
-    return bT(obj, "name");
+  openAddPopup(ix) {
+    this.curItemIdx = ix;
+    this.addModal = true;
+  }
+
+  openEditPopup(ix) {
+    this.curItemIdx = ix;
+    this.editModal = true;
   }
 
   addBot(bot) {
-    // add bot to selected location
-    this.modal = false;
+    this.addModal = false;
     this.$store.commit("cache/SET_STAR_ITEM", {
       group_idx: this.groupIdx,
       item_idx: this.curItemIdx,
@@ -128,7 +178,26 @@ class StarBotGroup extends Vue {
     });
   }
 
-  invoke(bot) {
+  removeBot() {
+    this.editModal = false;
+    this.$store.commit("cache/SET_STAR_ITEM", {
+      group_idx: this.groupIdx,
+      item_idx: this.curItemIdx,
+      item: null,
+    });
+  }
+
+  viewBot() {
+    console.log(this.curBot);
+    this.infoModal = true;
+    this.editModal = false;
+  }
+
+  op(bot, ix) {
+    if (this.isEditMode) {
+      this.curBot = bot;
+      return this.openEditPopup(ix);
+    }
     return this.isMixinMessenger ? this.openHome(bot) : this.openUrl(bot);
   }
 
@@ -153,10 +222,34 @@ export default StarBotGroup;
     justify-content: center;
     min-height: 64px;
     cursor: pointer;
+    .icon {
+      transition: all 0.3s ease;
+    }
+    &.shaking {
+      animation: shaking 0.3s infinite;
+      .icon {
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+      }
+    }
   }
 }
 .add-bot-list {
   overflow: auto;
   height: 70vh;
+}
+
+@keyframes shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  75% {
+    transform: rotate(3deg) scale(1.01);
+  }
+  99.99% {
+    transform: rotate(0deg);
+  }
 }
 </style>

@@ -17,6 +17,8 @@
   "bot.detail.mvm": "MVM",
   "bot.detail.languages": "语言",
   "bot.detail.developer": "开发者",
+  "bot.view_info": "查看信息",
+  "bot.remove": "移除",
 
   "lang.en": "English",
   "lang.zh": "中文",

@@ -5,7 +5,13 @@ import ja from "vuetify/es5/locale/ja";
 import UIKit from "@foxone/uikit";
 import { mergeDeep } from "vuetify/lib/util/helpers";
 
-import { FIconMenuBold, FIconStar4PFill } from "@foxone/icons";
+import {
+  FIconMenuBold,
+  FIconStar4PFill,
+  FIconEdit4P,
+  FIconDocumentHelp,
+  FIconCloseBold,
+} from "@foxone/icons";
 
 export default function ({ store }) {
   const isDark = store.state.app?.dark || false;
@@ -16,6 +22,9 @@ export default function ({ store }) {
       values: {
         FIconMenuBold: { component: FIconMenuBold },
         FIconStar4PFill: { component: FIconStar4PFill },
+        FIconEdit4P: { component: FIconEdit4P },
+        FIconDocumentHelp: { component: FIconDocumentHelp },
+        FIconCloseBold: { component: FIconCloseBold },
       },
     },
     theme: {
