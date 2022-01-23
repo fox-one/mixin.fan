@@ -1,0 +1,25 @@
+{
+  "id": "7000104153",
+  "client_id": "ce975210-4d6a-43b7-a193-828ac03d8087",
+  "url": "https://leafer.one",
+  "name": {
+    "en": "Leafer",
+    "zh": "Leafer"
+  },
+  "text": {
+    "en": ["A notification service built for Pando Leaf users to prevent their vaults from liquidation."],
+    "zh": ["为Pando Leaf用户提供平仓预警通知服务"]
+  },
+  "category": "util",
+  "tags": {
+    "zh": ["Pando Leaf", "util", "notification"]
+  },
+  "language": "zh",
+  "languages": ["zh","en"],
+
+  "developer": {
+    "name": "王卓",
+    "url": "https://mixin.one/codes/936cf51e-7e32-4f62-a4ff-83cfe1d09daa"
+  },
+  "website": "https://leafer.one"
+}
