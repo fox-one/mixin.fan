@@ -1,0 +1,27 @@
+{
+  "id": "7000103075",
+  "client_id": "c1412f68-6152-40ad-a193-f7fadf9328a1",
+  "url": "https://mixcoin.one/ifttb",
+  "name": {
+    "zh": "IFTTB",
+    "en": "IFTTB"
+  },
+  "text": {
+    "zh": ["IF This Then Buy"],
+    "en": ["IF This Then Buy"]
+  },
+  "category": "util",
+  "tags": {
+    "zh": ["swap"],
+    "en": ["swap"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "An Lee",
+    "url": ""
+  },
+  "website": "https://mixcoin.one/ifttb",
+  "support_url": ""
+}

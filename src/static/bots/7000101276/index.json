@@ -1,0 +1,31 @@
+{
+  "id": "7000101276",
+  "client_id": "61103d28-3ac2-44a2-ae34-bd956070dab1",
+  "url": "",
+  "name": {
+    "zh": "ExinOne",
+    "en": "ExinOne"
+  },
+  "text": {
+    "zh": [
+      "ExinOne is the one-stop digital asset financial service platform powered by Exin."
+    ],
+    "en": [
+      "ExinOne is the one-stop digital asset financial service platform powered by Exin."
+    ]
+  },
+  "category": "exchange",
+  "tags": {
+    "zh": ["all-in-one"],
+    "en": ["all-in-one"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "ExinOne",
+    "url": ""
+  },
+  "website": "",
+  "support_url": ""
+}
