@@ -1,0 +1,27 @@
+{
+  "id": "7000104160",
+  "client_id": "d402f2c6-1ba0-4d82-a75c-5674fae1acca",
+  "url": "https://hodl.fox.one/",
+  "name": {
+    "zh": "大牢宝",
+    "en": "HODL!"
+  },
+  "text": {
+    "en": ["HODL! / LIVE LONG AND PROSPER!"],
+    "zh": ["大牢宝 / 健康长寿·繁荣昌盛"]
+  },
+  "category": "util",
+  "tags": {
+    "en": ["HODL"],
+    "zh": ["HODL"]
+  },
+  "language": "en",
+  "languages": ["en", "zh"],
+
+  "developer": {
+    "name": "HODL!",
+    "url": ""
+  },
+  "website": "",
+  "support_url": ""
+}
