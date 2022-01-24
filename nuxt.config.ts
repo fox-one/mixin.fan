@@ -34,13 +34,14 @@ const config: NuxtConfig = {
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
-      { rel: "apple-touch-icon", type: "image/png", href: "/favicon.png" },
+      { rel: "apple-touch-icon", type: "image/png", href: "/icon.png" },
     ],
   },
   loading: { color: "#fff" },
   css: ["~/styles/index.scss"],
   plugins: ["~/plugins/property.ts", "~/plugins/libs.ts"],
   buildModules: [
+    "@nuxtjs/pwa",
     "@nuxtjs/eslint-module",
     [
       "@nuxt/typescript-build",
@@ -81,6 +82,14 @@ const config: NuxtConfig = {
     defaultAssets: false,
     treeShake: true,
     optionsPath: "./vuetify.options.ts",
+  },
+  pwa: {
+    manifest: {
+      name: "Mixin.fan",
+      short_name: "Mixin.fan",
+      lang: "en",
+      theme_color: "#ffffff",
+    },
   },
   build: {
     transpile: ["vuetify", "@foxone/uikit"],

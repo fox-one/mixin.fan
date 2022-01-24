@@ -1,0 +1,27 @@
+{
+  "id": "7000101420",
+  "client_id": "10c3c790-8222-4117-91cb-6ee4a34df930",
+  "url": "https://robocoo.mixin.fan/",
+  "name": {
+    "zh": "咕咕机",
+    "en": "Robocoo"
+  },
+  "text": {
+    "zh": ["分享发生在你身边的事情"],
+    "en": ["Share what's happening near you"]
+  },
+  "category": "social",
+  "tags": {
+    "zh": ["Twitter", "Microblogging"],
+    "en": ["Twitter", "Microblogging"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "Mixin.fan",
+    "url": "https://mixin.fan"
+  },
+  "website": "https://mixin.fan",
+  "support_url": ""
+}

@@ -21,7 +21,18 @@ import Modals from "./modals/index.vue";
     Modals,
   },
 })
-class DefaultLayout extends Vue {}
+class DefaultLayout extends Vue {
+  mounted() {
+    const groups = this.$store.getters["cache/GET_STAR_GROUPS"];
+    if (groups === undefined || groups.length === 0) {
+      this.$store.commit(
+        "cache/SET_STAR_GROUPS",
+        this.$utils.helper.buildDefaultStarGroups(),
+      );
+    }
+    return groups;
+  }
+}
 export default DefaultLayout;
 </script>
 

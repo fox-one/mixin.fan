@@ -1,0 +1,28 @@
+{
+  "id": "7000104206",
+  "client_id": "1906a44a-d9eb-4d22-b4c7-b46a85969d5c",
+  "url": "https://www.tigaex.com/?access=17548a74-10e2-4fa9-ade8-8837aecb146e#/exchange",
+  "name": {
+    "zh": "TIGA",
+    "en": "TIGA"
+  },
+  "text": {
+    "zh": ["TIGA 是一个全球化去中心化C2C交易市场。"],
+    "en": [
+      "TIGA is a decentralized C2C marketplace for the worldwide cryptocurrency users."
+    ]
+  },
+  "category": "exchange",
+  "tags": {
+    "zh": ["C2C"],
+    "en": ["C2C"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "TIGA"
+  },
+  "website": "",
+  "support_url": ""
+}

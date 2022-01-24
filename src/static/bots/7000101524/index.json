@@ -1,0 +1,31 @@
+{
+  "id": "7000101524",
+  "client_id": "82d20bc7-9a97-4a69-bcd0-4da502374f6c",
+  "url": "https://mixcoin.plus/",
+  "name": {
+    "zh": "Mixcoin",
+    "en": "Mixcoin"
+  },
+  "text": {
+    "zh": [
+      "An open source decentralized exchange to trade all digital assets with your wallet."
+    ],
+    "en": [
+      "An open source decentralized exchange to trade all digital assets with your wallet."
+    ]
+  },
+  "category": "exchange",
+  "tags": {
+    "zh": ["exchange"],
+    "en": ["exchange"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "An Lee",
+    "url": ""
+  },
+  "website": "",
+  "support_url": ""
+}

@@ -87,10 +87,10 @@ The bot description file includes required fields and optional fields.
 
 - [ ] listing groups and communities
 - [ ] listing non-bot dapps
-- [ ] saving bots as favourted
 - [ ] more languages support
 - [ ] bot collections
-- [ ] pwa & SEO
+- [x] saving bots as favourted
+- [x] pwa & SEO
 
 ## Build Setup
 

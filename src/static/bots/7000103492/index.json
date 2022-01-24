@@ -1,0 +1,27 @@
+{
+  "id": "7000103492",
+  "client_id": "91916ac9-3d66-4ca3-a063-14e24a688e54",
+  "url": "https://big.one/",
+  "name": {
+    "zh": "Big.ONE"
+  },
+  "text": {
+    "zh": [
+      "币格BigONE是一家诚信、安全、专业、共赢的全球区块链数字资产托管及交易平台。",
+      "平台建立了完整的数字资产交易生态体系，包括现货交易、杠杆交易、合约交易、理财、借贷、PoS矿池、去中心化交易平台BigDEX."
+    ]
+  },
+  "category": "exchange",
+  "tags": {
+    "zh": ["big.one"]
+  },
+  "language": "zh",
+  "languages": ["zh"],
+
+  "developer": {
+    "name": "Big.ONE",
+    "url": "https://big.one/"
+  },
+  "website": "https://big.one/",
+  "support_url": ""
+}

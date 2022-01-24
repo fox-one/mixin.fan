@@ -1,0 +1,31 @@
+{
+  "id": "7000101500",
+  "client_id": "d0a44d9d-bb19-403c-afc5-ea26ea88123b",
+  "url": "https://mixinwallet.com/#/",
+  "name": {
+    "zh": "Mixin Wallet",
+    "en": "Mixin Wallet"
+  },
+  "text": {
+    "zh": [
+      "Mixin Wallet is a user-friendly, secure and powerful multi-chain digital wallets."
+    ],
+    "en": [
+      "Mixin Wallet is a user-friendly, secure and powerful multi-chain digital wallets."
+    ]
+  },
+  "category": "wallet",
+  "tags": {
+    "zh": ["wallet"],
+    "en": ["wallet"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "Mixin",
+    "url": "https://mixin.one"
+  },
+  "website": "https://mixin.one",
+  "support_url": ""
+}

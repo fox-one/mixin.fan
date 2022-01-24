@@ -1,5 +1,5 @@
 import { AppModuleKey, MutationTypes } from "@/store/app/types";
-import { CONFIG } from "~/constants";
+import { CONFIG, MAX_STAR_GROUP_COUNT } from "~/constants";
 
 import BigNumber from "bignumber.js";
 import Bridge from "@foxone/mixin-sdk-jsbridge";
@@ -40,10 +40,13 @@ export function getToken(store) {
 
 export function getLocale() {
   let locale = "en";
-  if (navigator.language.includes("zh")) {
-    locale = "zh";
-  } else if (navigator.language.includes("ja")) {
-    locale = "ja";
+  const supportedLocales = ["ja", "zh", "ko"];
+  for (let ix = 0; ix < supportedLocales.length; ix++) {
+    const l = supportedLocales[ix];
+    if (navigator.language.includes(l)) {
+      locale = l;
+      break;
+    }
   }
   return locale;
 }
@@ -100,4 +103,16 @@ export function getUrlQuery() {
 
 export function isMobile() {
   return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+}
+
+export function buildDefaultStarGroups() {
+  const ret: any = [];
+  for (let ix = 0; ix < MAX_STAR_GROUP_COUNT; ix++) {
+    ret.push({
+      title: `#${ix + 1}`,
+      used: 0,
+      items: [null, null, null, null],
+    });
+  }
+  return ret;
 }

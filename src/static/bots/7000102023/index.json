@@ -1,0 +1,27 @@
+{
+  "id": "7000102023",
+  "client_id": "b7c610d4-8e74-455d-ae82-c081ff80d511",
+  "url": "https://www.b.watch",
+  "name": {
+    "zh": "B.watch",
+    "en": "B.watch"
+  },
+  "text": {
+    "zh": ["B.watch, BOX 的兑换平台"],
+    "en": ["B.watch, the platform of BOX"]
+  },
+  "category": "financial",
+  "tags": {
+    "zh": ["BOX"],
+    "en": ["BOX"]
+  },
+  "language": "en",
+  "languages": ["zh", "en"],
+
+  "developer": {
+    "name": "B.watch",
+    "url": "https://www.b.watch"
+  },
+  "website": "https://www.b.watch",
+  "support_url": ""
+}

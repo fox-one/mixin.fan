@@ -1,8 +1,7 @@
 import {
   mdiRobotAngry,
   mdiAccountGroup,
-  mdiHelpCircle,
-  mdiGift,
+  mdiPlus,
   mdiMagnify,
   mdiAccount,
   mdiChevronRight,
@@ -20,8 +19,7 @@ import {
 export default {
   mdiRobotAngry,
   mdiAccountGroup,
-  mdiHelpCircle,
-  mdiGift,
+  mdiPlus,
   mdiMagnify,
   mdiAccount,
   mdiChevronRight,

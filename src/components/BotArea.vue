@@ -14,7 +14,7 @@
               md="4"
               lg="3"
               v-for="bot in group.items"
-              :class="!$vuetify.breakpoint.mdAndUp ? 'pa-2' : ''"
+              :class="!$vuetify.breakpoint.mdAndUp ? 'py-2 px-2' : ''"
               :key="bot.client_id"
             >
               <bot-card :bot="bot" />
@@ -141,23 +141,6 @@ class BotsArea extends Vue {
 
   getGroupTitle(obj) {
     return bT(obj, "name");
-  }
-
-  popup(bot) {
-    this.curBot = bot;
-    this.modal = true;
-  }
-
-  openUrl(bot) {
-    window.open(bot.url);
-  }
-
-  openHome(bot) {
-    window.open(`https://mixin.one/apps/${bot.client_id}?action=open`);
-  }
-
-  openProfile(bot) {
-    window.open(`https://mixin.one/apps/${bot.client_id}`);
   }
 }
 export default BotsArea;

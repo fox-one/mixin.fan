@@ -17,13 +17,15 @@
   "bot.detail.mvm": "MVM",
   "bot.detail.languages": "语言",
   "bot.detail.developer": "开发者",
+  "bot.view_info": "查看信息",
+  "bot.remove": "移除",
 
   "lang.en": "English",
   "lang.zh": "中文",
   "lang.ja": "日本語",
   "lang.de": "Deutsch",
   "lang.es": "Español",
-  "lang.ko": "한국인",
+  "lang.ko": "한국어",
 
   "settings.tap_to_launch": "轻按即启动",
   "settings.donate": "捐赠我",
