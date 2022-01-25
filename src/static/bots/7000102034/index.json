@@ -1,0 +1,39 @@
+{
+    "id": "7000102034",
+    "client_id": "60d30faa-3825-48da-ac1c-6aca1f573dd5",
+    "url": "https://mixin.owldeliver.one/",
+    "name": {
+        "en": "OwlDeliver",
+        "zh": "猫头鹰递信"
+    },
+    "text": {
+        "en": [
+            "Subscribe to web feeds"
+        ],
+        "zh": [
+            "订阅信息源"
+        ]
+    },
+    "category": "news",
+    "tags": {
+        "en": [
+            "Subscribe",
+            "Feed"
+        ],
+        "zh": [
+            "订阅",
+            "信息"
+        ]
+    },
+    "language": "zh",
+    "languages": [
+        "en",
+        "zh"
+    ],
+    "developer": {
+        "name": "info-woods",
+        "url": "https://github.com/info-woods/"
+    },
+    "website": "https://mixin.owldeliver.one/",
+    "support_url": ""
+}
