@@ -1,0 +1,29 @@
+{
+  "id": "7000103807",
+  "client_id": "39d0a82d-2445-4abf-b273-7920af251174",
+  "url": "https://dash.getlinks.jp",
+  "name": {
+    "ja": "Linksチーム",
+    "zh": "Links Team",
+    "en": "Links Team"
+  },
+  "text": {
+    "ja": ["Linksチーム公式ロボ"],
+    "en": ["Links Official Robot"]
+  },
+  "category": "util",
+  "tags": {
+    "ja": ["all-in-one"],
+    "zh": ["all-in-one"],
+    "en": ["all-in-one"]
+  },
+  "language": "ja",
+  "languages": ["ja", "zh", "en"],
+
+  "developer": {
+    "name": "Links Team",
+    "url": "https://getlinks.jp"
+  },
+  "website": "https://getlinks.jp",
+  "support_url": ""
+}
