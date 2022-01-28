@@ -1,0 +1,32 @@
+{
+    "id": "7000104378",
+    "client_id": "ce3fa7fd-3886-41bb-8d5d-df6da93f5d68",
+    "url": "https://web.mixinpoll.touge.fun",
+    "name": {
+      "zh": "Polls",
+      "en": "Polls"
+    },
+    "text": {
+      "zh": [
+        "Mixin 里的投票工具"
+      ],
+      "en": [
+        "Generate polls for Mixin users."
+      ]
+    },
+    "category": "util",
+    "tags": {
+      "zh": ["投票"],
+      "en": ["poll", "vote"]
+    },
+    "language": "en",
+    "languages": ["zh", "en"],
+  
+    "developer": {
+      "name": "touge",
+      "url": ""
+    },
+    "website": "",
+    "support_url": ""
+  }
+  
