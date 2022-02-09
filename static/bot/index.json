@@ -1,23 +1,24 @@
 {
     // required fields.
     // id, client_id, url, name, text, language
-    "id": "Your bot ID. e.g. 70001010001",
-    "client_id": "your bot client_id. e.g. xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-    "url": "your bot's home url. e.g. https://mixin.one",
+    "id": "70001010001",
+    "client_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "url": "https://bubiji.com",
     // bot name, support mulitple languages: en, es, ja, zh, ko, de
     "name": {
-      "en": "Your bot's name",
-      "ja": "Your bot's name in Japanese"
+      "en": "onregularinvesting.calculator",
+      "ja": "onregularinvesting.calculator"
     },
     // description, up to 3 lines
     "text": {
-      "en": ["The first line of description", "The 2nd line of description"]
+      "en": ["onregularinvesting.calculator", "Calculate the income or loss of your past \"investment\" and feel the compound interest effect brought by time", 
+      "To improve current investment decisions by revising their past erroneous concepts."]
     },
     // the category of your bot.
-    "category": "exchange",
+    "category": "Utilities",
     // tags of the bot, up to 3 tags for each language
     "tags": {
-      "en": ["Mint", "Pando"]
+      "en": ["calculator", "invest","onregularinverting"]
     },
     // default language
     "language": "en",
@@ -26,8 +27,8 @@
   
     // optional fields.
     "developer": {
-      "name": "the developer's name",
-      "url": "the url of the developer"
+      "name": "BuBiJi Team",
+      "url": "https://bubiji.com"
     }
     //,
     // // website and support_url
