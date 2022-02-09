@@ -1,0 +1,4 @@
+api/config.js
+.next
+node_modules
+package-lock.json

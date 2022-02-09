@@ -1,0 +1,47 @@
+env:
+  node: true
+  browser: true
+  es6: true
+extends:
+- google
+- 'eslint:recommended'
+- 'plugin:react/recommended'
+- 'plugin:@next/next/recommended'
+parser: '@babel/eslint-parser'
+settings:
+  react:
+    version: '16.8.0'
+parserOptions:
+  sourceType: module
+  allowImportExportEverywhere: false
+  codeFrame: false
+plugins:
+  - '@babel'
+  - react
+  - react-hooks
+  - '@emotion/eslint-plugin'
+rules:
+  indent:
+  - error
+  - 2
+  - SwitchCase: 1
+    ignoredNodes:
+    - TemplateLiteral
+  linebreak-style:
+  - error
+  - unix
+  quotes:
+  - error
+  - single
+  semi:
+  - error
+  - always
+  require-jsdoc:
+  - 0
+  react-hooks/rules-of-hooks:
+  - error
+  max-len:
+  - 1
+  camelcase:
+  - 1
+  template-curly-spacing: 0
