@@ -1,22 +1,22 @@
 {
-	"id": "7000104091.json",
-	"client_id": "b296e102-ed76-4019-8da8-c09a2c8c9809",
-	"url": "https://mixaudio.github.io",
-	"name": {
-		"en": "MixAudio"
-	},
-	"text": {
-		"en": ["The first audio processing service on Mixin Messenger."],
-		"zh": ["Mixin Messenger上的第一个音频处理服务。"]
-	},
-	"category": "util",
-	"tags": ["Audio", "Course"],
-	"language": "en",
-	"languages": ["en", "zh"],
-	"developer": {
-		"name": "Zed Wong",
-		"url": "https://github.com/zed-wong"
-	},
-	"website": "https://mixaudio.github.io",
-	"support_url": "https://mixaudio.github.io"
+  "id": "7000104091",
+  "client_id": "b296e102-ed76-4019-8da8-c09a2c8c9809",
+  "url": "https://mixaudio.github.io",
+  "name": {
+	"en": "MixAudio"
+  },
+   "text": {
+	"en": ["The first audio processing service on Mixin Messenger."],
+	"zh": ["Mixin Messenger上的第一个音频处理服务。"]
+  },
+  "category": "util",
+  "tags": ["Audio", "Course"],
+  "language": "en",
+  "languages": ["en", "zh"],
+  "developer": {
+	"name": "Zed Wong",
+	"url": "https://github.com/zed-wong"
+  },
+  "website": "https://mixaudio.github.io",
+  "support_url": "https://mixaudio.github.io"
 }
