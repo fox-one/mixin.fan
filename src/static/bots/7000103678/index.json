@@ -1,7 +1,7 @@
 {
   "id": "7000103678",
   "client_id": "96c1460b-c7c4-480a-a342-acaa73995a37",
-  "url": "",
+  "url": "https://bots.mixin.zone/tools",
   "name": {
     "en": "Mixin Data"
   },
@@ -21,6 +21,6 @@
     "name": "John",
     "url": "https://github.com/over140"
   },
-  "website": "https://bots.mixin.zone/tools",
-  "support_url": "https://bots.mixin.zone/tools"
+  "website": "https://mixin.one",
+  "support_url": "https://mixin.one"
 }

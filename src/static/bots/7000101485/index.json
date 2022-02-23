@@ -1,7 +1,7 @@
 {
   "id": "7000101485",
   "client_id": "1ab1f241-b809-4790-bcfd-a1779bb1d313",
-  "url": "",
+  "url": "https://mixin.one/receipts/new",
   "name": {
     "zh": "Mixin 收款",
     "en": "Mixin Receipt"
@@ -26,6 +26,6 @@
     "name": "HunterQ",
     "url": "https://github.com/jadeydi"
   },
-  "website": "https://mixin.one/receipts/new",
+  "website": "https://mixin.one",
   "support_url": "https://mixin.one"
 }

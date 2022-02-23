@@ -1,7 +1,7 @@
 {
   "id": "7000103450",
   "client_id": "70b94e54-8f75-41f5-91e2-12522112ee71",
-  "url": "",
+  "url": "https://redpacket.mixin.zone",
   "name": {
     "en": "Lucky Coin"
   },
@@ -21,6 +21,6 @@
     "name": "Neo",
     "url": "https://github.com/liuzemei"
   },
-  "website": "https://redpacket.mixin.zone",
-  "support_url": "https://redpacket.mixin.zone"
+  "website": "https://mixin.one",
+  "support_url": "https://mixin.one"
 }

@@ -1,7 +1,7 @@
 {
   "id": "7000103056",
   "client_id": "9ecca96f-3473-4f2a-8ad9-0ebb1a3b1fa7",
-  "url": "",
+  "url": "https://hot-bots.mixinbots.com/tools",
   "name": {
     "zh": "Mixin 数据"
   },
@@ -21,6 +21,6 @@
     "name": "长老",
     "url": "https://github.com/over140"
   },
-  "website": "https://hot-bots.mixinbots.com/tools",
-  "support_url": ""
+  "website": "https://mixin.one",
+  "support_url": "https://mixin.one"
 }
