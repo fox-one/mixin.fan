@@ -1,0 +1,26 @@
+{
+  "id": "7000103450",
+  "client_id": "70b94e54-8f75-41f5-91e2-12522112ee71",
+  "url": "https://redpacket.mixin.zone",
+  "name": {
+    "en": "Lucky Coin"
+  },
+  "text": {
+    "en": [
+      "Add the bot as a group participant, then return to the chat session and press the \"+\" to explore the extension of the group chat to send lucky coin. It currently only supports sending the tokens with prices."
+    ]
+  },
+  "category": "util",
+  "tags": {
+    "en": ["locky-coin"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "Neo",
+    "url": "https://github.com/liuzemei"
+  },
+  "website": "https://mixin.one",
+  "support_url": "https://mixin.one"
+}
