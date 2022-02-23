@@ -111,13 +111,17 @@ class BotsArea extends Vue {
     for (let ix = 0; ix < this.bots.length; ix++) {
       const bot = this.bots[ix];
       if (!groups[bot.category]) {
-        const groupTitle =
-          this.getGroupTitle(this.catMap.get(bot.category)) || bot.category;
-        groups[bot.category] = {
-          id: bot.category,
-          title: groupTitle,
-          items: [],
-        };
+        const cat = this.catMap.get(bot.category);
+        if (cat) {
+          const groupTitle = this.getGroupTitle(cat);
+          groups[bot.category] = {
+            id: bot.category,
+            title: groupTitle,
+            items: [],
+          };
+        } else {
+          continue;
+        }
       }
       groups[bot.category].items.push(bot);
     }
