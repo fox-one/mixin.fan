@@ -1,0 +1,26 @@
+{
+  "id": "7000101963",
+  "client_id": "076ecd36-4c8e-4a12-9aa2-d541bdbba58d",
+  "url": "https://flowin.xin/products",
+  "name": {
+    "en": "SwapMeet",
+    "zh": "安信购物"
+  },
+  "text": {
+    "en": ["SwapMeet is tool for swapping items and cryptocurrencies using Mixin multisig technology."],
+    "zh": ["SwapMeet 是一个多签交易工具，可以用作任意物品与加密资产之间的交易"]
+  },
+  "category": "exchange",
+  "tags": {
+    "en": ["trade"]
+  },
+  "language": "en",
+  "languages": ["en", "zh"],
+
+  "developer": {
+    "name": "An lee",
+    "url": "https://github.com/an-lee"
+  },
+  "website": "https://flowin.xin/products",
+  "support_url": "https://flowin.xin/products"
+}
