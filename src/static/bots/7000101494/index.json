@@ -18,9 +18,9 @@
   "languages": ["en"],
 
   "developer": {
-    "name": "Crossle",
-    "url": ""
+    "name": "crossle",
+    "url": "https://github.com/crossle"
   },
   "website": "https://cryptopanic.com",
-  "support_url": ""
+  "support_url": "https://cryptopanic.com"
 }
