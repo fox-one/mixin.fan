@@ -1,0 +1,24 @@
+{
+  "id": "7000101914",
+  "client_id": "e49eeb58-64cd-4065-b4f8-bac86647448d",
+  "url": "https://mixinmessenger.zendesk.com/hc/zh-cn",
+  "name": {
+    "zh": "Mixin 动态"
+  },
+  "text": {
+    "zh": ["发布最新的Mixin产品，活动通知"]
+  },
+  "category": "news",
+  "tags": {
+    "en": ["news"]
+  },
+  "language": "zh",
+  "languages": ["zh"],
+
+  "developer": {
+    "name": "Mixin",
+    "url": "https://github.com/MixinNetwork"
+  },
+  "website": "https://mixinmessenger.zendesk.com/hc/zh-cn",
+  "support_url": "https://mixinmessenger.zendesk.com/hc/zh-cn"
+}

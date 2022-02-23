@@ -1,0 +1,24 @@
+{
+  "id": "7000102326",
+  "client_id": "5348cc95-6c6f-4c50-9426-90bfa2242b9a",
+  "url": "http://ncov2019.sohu.com/",
+  "name": {
+    "zh": "新型冠状病毒实时播报"
+  },
+  "text": {
+    "zh": ["新型冠状病毒 2019-nCoV 实时播报"]
+  },
+  "category": "news",
+  "tags": {
+    "en": ["2019-nCoV"]
+  },
+  "language": "zh",
+  "languages": ["zh"],
+
+  "developer": {
+    "name": "crossle",
+    "url": "https://github.com/crossle"
+  },
+  "website": "http://ncov2019.sohu.com/",
+  "support_url": "http://ncov2019.sohu.com/"
+}

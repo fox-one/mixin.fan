@@ -1,0 +1,25 @@
+{
+  "id": "7000000015",
+  "client_id": "f2397b7a-ddfc-4bd9-925a-e14a9a553ba5",
+  "url": "https://exinlocal.com/",
+  "name": {
+    "en": "Exinlocal"
+  },
+  "text": {
+    "en": ["ExinLocal is a worldwide peer-to-peer marketplace where buy and sell cryptocurrencies."]
+  },
+  "category": "exchange",
+  "tags": {
+    "en": ["OTC"]
+  },
+  "language": "en",
+  "languages": ["en", "zh"],
+
+  "developer": {
+    "name": "Exinone",
+    "url": "https://github.com/Exinone"
+  },
+  "website": "https://exinlocal.com/",
+  "support_url": "https://exinlocal.com/",
+  "limitation": "Chinese IP banned"
+}
