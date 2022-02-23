@@ -1,0 +1,26 @@
+{
+  "id": "7000101494",
+  "client_id": "6490fc01-8c23-4e1c-bbcc-2b6e86ff8f52",
+  "url": "",
+  "name": {
+    "en": "CryptoPanic"
+  },
+  "text": {
+    "en": [
+      "CryptoPanic is a news aggregator platform indicating impact on price and market for traders and cryptocurrency enthusiasts."
+    ]
+  },
+  "category": "news",
+  "tags": {
+    "en": ["crypto-news"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "Crossle",
+    "url": ""
+  },
+  "website": "",
+  "support_url": ""
+}

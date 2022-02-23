@@ -1,0 +1,26 @@
+{
+  "id": "7000103678",
+  "client_id": "96c1460b-c7c4-480a-a342-acaa73995a37",
+  "url": "",
+  "name": {
+    "en": "Mixin Data"
+  },
+  "text": {
+    "en": [
+      "It supports checking the top 100 assets, the public chains' sync status, withdrawal fees, and other info."
+    ]
+  },
+  "category": "util",
+  "tags": {
+    "en": ["data"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "John Tang",
+    "url": "https://github.com/over140/mixbot"
+  },
+  "website": "",
+  "support_url": ""
+}

@@ -1,0 +1,26 @@
+{
+  "id": "7000103056",
+  "client_id": "9ecca96f-3473-4f2a-8ad9-0ebb1a3b1fa7",
+  "url": "",
+  "name": {
+    "zh": "Mixin 数据"
+  },
+  "text": {
+    "zh": [
+      "查看 Mixin 网络 Top 20 资产、公链同步状态、提现手续费等信息。"
+    ]
+  },
+  "category": "util",
+  "tags": {
+    "zh": ["data"]
+  },
+  "language": "zh",
+  "languages": ["zh"],
+
+  "developer": {
+    "name": "长老",
+    "url": "https://github.com/over140/mixbot"
+  },
+  "website": "",
+  "support_url": ""
+}
