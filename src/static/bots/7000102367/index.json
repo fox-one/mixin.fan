@@ -1,0 +1,24 @@
+{
+  "id": "7000102367",
+  "client_id": "37e040ec-df91-47a7-982e-0e118932fa8b",
+  "url": "https://multisig.vec.io/",
+  "name": {
+    "en": "Simple Multisig Wallet"
+  },
+  "text": {
+    "en": ["Simple Multisig Wallet"]
+  },
+  "category": "wallet",
+  "tags": {
+    "en": ["Multisig","wallet"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "Cedric Fung",
+    "url": "https://github.com/cedricfung"
+  },
+  "website": "https://multisig.vec.io/",
+  "support_url": "https://multisig.vec.io/"
+}

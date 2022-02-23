@@ -1,0 +1,24 @@
+{
+  "id": "7000104220",
+  "client_id": "3539c3ce-52c0-4b0b-9573-c035ecb98d48",
+  "url": "https://mixpay.me/",
+  "name": {
+    "en": "Mixpay"
+  },
+  "text": {
+    "en": ["Payment for Web3."]
+  },
+  "category": "Financial",
+  "tags": {
+    "en": ["Payment","Exin"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "Exin",
+    "url": "https://github.com/ExinOne/"
+  },
+  "website": "https://mixpay.me/",
+  "support_url": "https://github.com/ExinOne/mixpay-doc"
+}

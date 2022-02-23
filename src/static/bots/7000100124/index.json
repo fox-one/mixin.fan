@@ -1,0 +1,24 @@
+{
+  "id": "7000100124",
+  "client_id": "7e3313b8-dfe1-4833-8f94-34fcdcc53a42",
+  "url": "https://news.ycombinator.com/news",
+  "name": {
+    "en": "Hacker News"
+  },
+  "text": {
+    "en": ["Top stories from https://new.ycombinator.com (with 100+ score)"]
+  },
+  "category": "news",
+  "tags": {
+    "en": ["News"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "crossle",
+    "url": "https://github.com/crossle"
+  },
+  "website": "https://news.ycombinator.com/news",
+  "support_url": "https://news.ycombinator.com/news"
+}

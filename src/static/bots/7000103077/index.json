@@ -1,0 +1,24 @@
+{
+  "id": ""7000103077,
+  "client_id": "d2c08f82-caa7-4da2-9fcd-d0dd2b2c2bca",
+  "url": "https://payin.xin/",
+  "name": {
+    "en": "Payin"
+  },
+  "text": {
+    "en": ["Help you paying in Mixin Messenger with multi-sign tech."]
+  },
+  "category": "wallet",
+  "tags": {
+    "en": ["Multisig", "wallet"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "An lee",
+    "url": "https://github.com/an-lee"
+  },
+  "website": "https://payin.xin/",
+  "support_url": "https://payin.xin/"
+}

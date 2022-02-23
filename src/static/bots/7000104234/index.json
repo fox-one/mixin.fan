@@ -1,0 +1,24 @@
+{
+  "id": "7000104234",
+  "client_id": "037ba0df-afbf-4491-8053-62c7a3957d7b",
+  "url": "https://nfo.vec.io/",
+  "name": {
+    "en": "Simple Collectibles Wallet"
+  },
+  "text": {
+    "en": ["A simple non fungible tokens wallet."]
+  },
+  "category": "wallet",
+  "tags": {
+    "en": ["NFT", "Wallet"]
+  },
+  "language": "en",
+  "languages": ["en"],
+
+  "developer": {
+    "name": "Cedric Fung",
+    "url": "https://github.com/cedricfung"
+  },
+  "website": "https://nfo.vec.io/",
+  "support_url": "https://nfo.vec.io/"
+}
