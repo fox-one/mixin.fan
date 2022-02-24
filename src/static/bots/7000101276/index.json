@@ -1,7 +1,7 @@
 {
   "id": "7000101276",
   "client_id": "61103d28-3ac2-44a2-ae34-bd956070dab1",
-  "url": "",
+  "url": "https://app.eiduwejdk.com/",
   "name": {
     "zh": "ExinOne",
     "en": "ExinOne"
@@ -23,9 +23,9 @@
   "languages": ["zh", "en"],
 
   "developer": {
-    "name": "ExinOne",
-    "url": ""
+    "name": "Exin",
+    "url": "https://github.com/Exinone"
   },
-  "website": "",
-  "support_url": ""
+  "website": "https://app.eiduwejdk.com/",
+  "support_url": "https://app.eiduwejdk.com/"
 }
