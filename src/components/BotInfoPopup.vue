@@ -126,7 +126,7 @@ class BotInfoPopup extends Vue {
       {
         title: this.$t("bot.detail.tags"),
         value: this.$createElement("span", {}, [
-          bT(this.bot, "tags").map((x) => {
+          bT(this.bot, "tags")?.map((x) => {
             return $tag(this, x);
           }),
         ]),
