@@ -1,7 +1,7 @@
 {
   "id": "7000101761",
   "client_id": "c48136b1-c5ab-437a-a079-9df1dc748f1b",
-  "url": "",
+  "url": "https://mixin.exinpool.com",
   "name": {
     "zh": "ExinPool",
     "en": "ExinPool"
@@ -26,6 +26,6 @@
     "name": "Exin",
     "url": "https://github.com/Exinone"
   },
-  "website": "",
-  "support_url": ""
+  "website": "https://mixin.exinpool.com",
+  "support_url": "https://mixin.exinpool.com"
 }

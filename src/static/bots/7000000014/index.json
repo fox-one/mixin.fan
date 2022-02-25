@@ -1,7 +1,7 @@
 {
   "id": "7000000014",
   "client_id": "1da1124a-9c97-4f2b-b332-f11f77c7604a",
-  "url": "",
+  "url": "https://app.exinearn.com/#/change",
   "name": {
     "zh": "水龙头App",
     "en": "Exinearn"
@@ -23,6 +23,6 @@
     "name": "Exin",
     "url": "https://github.com/Exinone"
   },
-  "website": "",
-  "support_url": ""
+  "website": "https://app.exinearn.com/#/change",
+  "support_url": "https://app.exinearn.com/#/change"
 }
