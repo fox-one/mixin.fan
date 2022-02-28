@@ -13,7 +13,7 @@
     "text": {
       "en": ["onregularinvesting.calculator", "simulate the benefits of historical fixed investment and reunderstand past investment decisions", 
       "To improve current investment decisions by revising their past erroneous concepts."],
-      "zn": ["定投计算器", "模拟历史定投受益,重新理解过往投资决策", 
+      "zn": ["定投计算器", "模拟历史定投收益,重新理解过往投资决策", 
       "改善当下决策质量"]
     },
     // the category of your bot.
