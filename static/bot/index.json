@@ -1,34 +1,37 @@
 {
     // required fields.
     // id, client_id, url, name, text, language
-    "id": "70001010001",
-    "client_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-    "url": "https://bubiji.com",
+    "id": "7000104432",
+    "client_id": "67bae580-e0d7-4286-a06e-9f970698bad2",
+    "url": "https://calc.imlidian.com/",
     // bot name, support mulitple languages: en, es, ja, zh, ko, de
     "name": {
       "en": "onregularinvesting.calculator",
-      "ja": "onregularinvesting.calculator"
+      "zh": "定投计算器"
     },
     // description, up to 3 lines
     "text": {
-      "en": ["onregularinvesting.calculator", "Calculate the income or loss of your past \"investment\" and feel the compound interest effect brought by time", 
-      "To improve current investment decisions by revising their past erroneous concepts."]
+      "en": ["onregularinvesting.calculator", "simulate the benefits of historical fixed investment and reunderstand past investment decisions", 
+      "To improve current investment decisions by revising their past erroneous concepts."],
+      "zn": ["定投计算器", "模拟历史定投受益,重新理解过往投资决策", 
+      "改善当下决策质量"]
     },
     // the category of your bot.
     "category": "Utilities",
     // tags of the bot, up to 3 tags for each language
     "tags": {
-      "en": ["calculator", "invest","onregularinverting"]
+      "en": ["calculator", "invest","onregularinverting"],
+        "zh": ["定投", "计算器","定投计算器"]
     },
     // default language
-    "language": "en",
+    "language": "zh",
     // supported language
-    "languages": ["en", "ja", "zh", "de", "es"],
+    "languages": ["en","zh"],
   
     // optional fields.
     "developer": {
-      "name": "BuBiJi Team",
-      "url": "https://bubiji.com"
+      "name": "lidian",
+      "url": "https://www.imlidian.com"
     }
     //,
     // // website and support_url
