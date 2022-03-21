@@ -1,7 +1,7 @@
 {
   "id": "7000102326",
   "client_id": "5348cc95-6c6f-4c50-9426-90bfa2242b9a",
-  "url": "http://ncov2019.sohu.com/",
+  "url": "https://ncov.dxy.cn/ncovh5/view/pneumonia",
   "name": {
     "zh": "新型冠状病毒实时播报"
   },
@@ -19,6 +19,6 @@
     "name": "crossle",
     "url": "https://github.com/crossle"
   },
-  "website": "http://ncov2019.sohu.com/",
-  "support_url": "http://ncov2019.sohu.com/"
+  "website": "https://ncov.dxy.cn/ncovh5/view/pneumonia",
+  "support_url": "https://ncov.dxy.cn/ncovh5/view/pneumonia"
 }
