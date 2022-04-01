@@ -1,0 +1,26 @@
+{
+    "id": "7000104458",
+    "client_id": "09b15289-f98a-4d33-8803-6b7800dee1ae",
+    "url": "https://mixin.one/codes/8bfe7da1-817b-47ca-81bc-f53fa7d8a25f",
+    "name": {
+      "en": "SecretLOVE",
+      "zh": "秘密关系"
+    },
+    "text": {
+      "en": ["We started...A secret relationship.Enjoy secret relationships that are hard to find in daily life!SNS short message love simulation game, the first part of the series!"],
+      "zh": ["我们开始了……秘密关系。享受在日常生活中很难找到的秘密关系！SNS短讯恋爱模拟游戏，系列的第一部！"]
+    },
+    "category": "game",
+    "tags": {
+      "en": ["chat", "gla","girl"],
+      "zh": ["女友", "交友","聊天"]
+    },
+    "language": "zh",
+    "languages": ["en","zh"],
+    "developer": {
+      "name": "lidian",
+      "url": "https://github.com/bubiji/relations"
+    },
+      "website": "https://www.imlidian.com",
+      "support_url": "https://github.com/bubiji"
+ }
