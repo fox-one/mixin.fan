@@ -1,0 +1,26 @@
+{
+    "id": "7000104144",
+    "client_id": "74d1ec88-20b1-4569-b198-3f555529276f",
+    "url": "https://ohmy.xin/circles/9332711",
+    "name": {
+      "en": "DoraemonJ",
+      "zh": "机器猫"
+    },
+    "text": {
+      "en": ["Using words to resist the thoughts that confuse us"],
+      "zh": ["用语言抵抗那些迷惑我们的思想"]
+    },
+    "category": "game",
+    "tags": {
+      "en": ["books", "read", "English"],
+      "zh": ["书", "阅读", "自动翻译"]
+    },
+    "language": "zh",
+    "languages": ["en","zh"],
+    "developer": {
+      "name": "DoraemonJ",
+      "url": "https://github.com/doraemonj/"
+    },
+      "website": "https://doraemonj.github.com",
+      "support_url": "https://github.com/doraemonj/"
+ }
