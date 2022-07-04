@@ -4,11 +4,11 @@ The listings portal for Mixin Ecosystem.
 
 ## Submit New Applications
 
-> Please don't submit super group bot or community bot. It's not ready to accept them.
+> Please don't submit a super group bot or community bot. It's not ready to accept them.
 
 **Prerequisites**
 
-- an icon with size of at 256x256 pixels in PNG format. Please compress your icon at [tinypng](https://tinypng.com/) to reduce the size.
+- an icon with a size of 256x256 pixels in PNG format. Please compress your icon at [tinypng](https://tinypng.com/) to reduce the size.
 - a JSON-based bot description file to describe your bot. Read the following section for the specification of the JSON file.
 
 **Submit**
@@ -72,7 +72,7 @@ The bot description file includes required fields and optional fields.
   "mvm": {
     "contract_url": "https://..."
   },
-  // if your bot has some limitation from using them, please specify here.
+  // if your bot has some limitations from using them, please specify them here.
   "limitation": ""
 }
 ```
@@ -89,7 +89,7 @@ The bot description file includes required fields and optional fields.
 - [ ] listing non-bot dapps
 - [ ] more languages support
 - [ ] bot collections
-- [x] saving bots as favourted
+- [x] saving bots as favorited
 - [x] pwa & SEO
 
 ## Build Setup
@@ -109,4 +109,4 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+For a detailed explanation of how things work, check out [Nuxt.js docs](https://nuxtjs.org).
