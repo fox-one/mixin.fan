@@ -1,17 +1,17 @@
 {
   "id": "7000101549",
   "client_id": "6d8fd25a-1eb1-4afb-b2a6-d34991959b76",
-  "url": "https://prsdigg.com",
+  "url": "https://quill.im",
   "name": {
-    "en": "PRSDigg",
-    "zh": "顶瓜瓜"
+    "en": "Quill",
+    "zh": "Quill"
   },
   "text": {
     "zh": [
-      "独创股权式的早期读者奖励机制，重新发现读者的价值，打造作者与读者共赢的写作平台"
+      "Quill 致力于为作者与读者打造一个 Web3 的价值网络"
     ],
     "en": [
-      "build a win-win platform for both authors and readers by introducing an early-reader-rewards mechanism"
+      "Build your value net on Web3 with Quill"
     ]
   },
   "tags": {
@@ -25,7 +25,7 @@
     "name": "Lee An",
     "url": "https://github.com/an-lee/"
   },
-  "website": "https://prsdigg.com",
-  "support_url": "https://prsdigg.jp",
+  "website": "https://quill.im",
+  "support_url": "https://quill.im",
   "limitation": ""
 }
