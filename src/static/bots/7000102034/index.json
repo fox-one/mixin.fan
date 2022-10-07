@@ -1,14 +1,14 @@
 {
     "id": "7000102034",
     "client_id": "60d30faa-3825-48da-ac1c-6aca1f573dd5",
-    "url": "https://mixin.owldeliver.one/",
+    "url": "https://owl.infowoods.com/",
     "name": {
-        "en": "OwlDeliver",
+        "en": "Owl Messenger",
         "zh": "猫头鹰递信"
     },
     "text": {
         "en": [
-            "Subscribe to web feeds"
+            "Subscribe to information sources"
         ],
         "zh": [
             "订阅信息源"
@@ -31,9 +31,8 @@
         "zh"
     ],
     "developer": {
-        "name": "info-woods",
-        "url": "https://github.com/info-woods/"
+        "name": "InfoWoods",
+        "url": "https://infowoods.com/"
     },
-    "website": "https://mixin.owldeliver.one/",
-    "support_url": ""
+    "website": "https://owl.infowoods.com/",
 }
